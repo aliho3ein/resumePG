@@ -1,0 +1,24 @@
+#About {
+  background: $secondary-color;
+  @include base-content;
+}
+
+#Project {
+  background-color: $primary-color;
+  @include base-content;
+}
+
+#Contact {
+  @include base-content;
+  color: $secondary-color;
+}
+
+p {
+  padding: 50px;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}

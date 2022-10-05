@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+$primary-color: #3b11d4;
+$secondary-color: #ff7046;
+$accent-color: #ffbb3e;
+
+@mixin burger {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 40px;
+  border-radius: 5px;
+  background-color: $accent-color;
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin base-content {
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  //   text-align: center;
+  font-size: 1.5rem;
+}
